@@ -1,0 +1,16 @@
+{
+  "name": "edge-extension-vs2026",
+  "version": "1.0.0",
+  "description": "A simple Edge browser extension",
+  "scripts": {
+    "build": "node build.js",
+    "clean": "node -e \"require('fs').rmSync('dist', {recursive: true, force: true})\""
+  },
+  "keywords": [
+    "edge",
+    "extension",
+    "browser"
+  ],
+  "author": "",
+  "license": "MIT"
+}
